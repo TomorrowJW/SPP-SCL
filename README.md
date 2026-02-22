@@ -53,7 +53,7 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 1. Configuring your environment (Prerequisites):
        
     + Installing necessary packages: `pip install -r requirements.txt`.
-    + Our training, validation, and testing partitioning follows the [CLMF](https://github.com/Link-Li/CLMLF/tree/main) partitioning method in NAACL2022 to ensure fair comparison.
+    + Our training, validation, and testing partitioning follows the [CLMLF](https://github.com/Link-Li/CLMLF/tree/main) partitioning method in NAACL2022 to ensure fair comparison.
 
 1. Downloading necessary data:
 
