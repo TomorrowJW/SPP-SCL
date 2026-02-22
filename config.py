@@ -4,8 +4,8 @@ class Con_fig():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # -------- Dataset --------
-    data_path = 'F:/BBBB/Datasets/MVSA-S/'
-    image_path = 'F:/BBBB/Datasets/MVSA-S/data/'
+    data_path = '/data/MVSA-S/'
+    image_path = '/data/MVSA-S/data/'
 
     # -------- Dataset --------
     image_size = 224
@@ -17,7 +17,7 @@ class Con_fig():
     num_epochs = 150
 
     # -------- Training --------
-    Bert_path = './bert-base-uncased/'
+    Bert_path = '/bert-base-uncased/'
     max_length = 202
 
     dropout = 0.2
@@ -25,7 +25,7 @@ class Con_fig():
     #------- Contrastive --------
     temperature = 0.07
 
-    save_model_path = './save_models/'
+    save_model_path = '/save_models/'
 
     # -------- Loss weights --------
     a = 1   # CE

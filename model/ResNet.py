@@ -19,7 +19,7 @@ class resnet(nn.Module):
         # 加载标准 ResNet-50 结构
         self.net = models.resnet50(pretrained=False)
         # 加载 ImageNet 预训练权重
-        self.net.load_state_dict(torch.load('F:/BBBB/MVSA-S/pre_train/resnet50-19c8e357.pth'), strict=False)
+        self.net.load_state_dict(torch.load('/pre_train/resnet50-19c8e357.pth'), strict=False)
 
     def forward(self,input):
         """
