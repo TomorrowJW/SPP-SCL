@@ -63,7 +63,7 @@ Also, these datasets can be downloaded from our [(Baidu Drive)](https://pan.baid
     + downloading our weights and move them into `./save_models/MVSA-S.pth or MVSA-M.pth or HFM.pth`, 
     which can be found from [(Baidu Drive)](https://pan.baidu.com/s/11xNLXA7m0g9SHMAZs-ZFPg?pwd=afr5) (extraction code: afr5). 
     
-    + downloading pre-trained ResNet50 and bert-base-uncased weights and move them into `./pre_train/` and `./pre_train/bert-base-uncased/`,
+    + downloading pre-trained ResNet50 and bert-base-uncased weights and move them into `./pre_train/` and `./bert-base-uncased/`,
     which can be found from [Baidu Drive](https://pan.baidu.com/s/1HoSXiwu8j4aFQg55jN7mBw) (extraction code: 3c7b) and [Baidu Drive](https://pan.baidu.com/s/1I5OJkYCoCz5iOuzbnvvVbw) (extraction code: ys4w). 
 
 1. Training Configuration:
