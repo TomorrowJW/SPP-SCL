@@ -64,7 +64,7 @@ Also, these datasets can be downloaded from our [(Baidu Drive)](https://pan.baid
     which can be found from [(Baidu Drive)](https://pan.baidu.com/s/11xNLXA7m0g9SHMAZs-ZFPg?pwd=afr5) (extraction code: afr5). 
     
     + downloading pre-trained ResNet50 and bert-base-uncased weights and move them into `./pre_train/` and `./bert-base-uncased/`,
-    which can be found from [Baidu Drive](https://pan.baidu.com/s/1HoSXiwu8j4aFQg55jN7mBw) (extraction code: 3c7b) and [Baidu Drive](https://pan.baidu.com/s/1I5OJkYCoCz5iOuzbnvvVbw) (extraction code: ys4w). 
+    which can be found from [Baidu Drive](https://pan.baidu.com/s/1zgYMO2VaShJTrxwwnTN7Ig?pwd=dgp6) (extraction code: dgp6) and [Baidu Drive](https://pan.baidu.com/s/1I5OJkYCoCz5iOuzbnvvVbw) (extraction code: ys4w). 
 
 1. Training Configuration:
 
