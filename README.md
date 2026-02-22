@@ -57,10 +57,10 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 
 1. Downloading necessary data:
 
-    + downloading dataset and move it into `./data/`, which can be found from [two MVSA Datasets](http://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/) for MVSA-Single and MVSA-Multiple Datasets, and can be found from [HFM Dataset](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
-Also, These datasets can be download from our [(Baidu Drive)](https://pan.baidu.com/s/1Tmq_jy7E3evUnyz_jGXf2w?pwd=5iew) (extraction code:5iew). 
+    + downloading the datasets and moving them into `./data/`, which can be found from [two MVSA Datasets](http://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/) for MVSA-Single and MVSA-Multiple Datasets. HFM Dataset can be found from [HFM](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection).
+Also, these datasets can be downloaded from our [(Baidu Drive)](https://pan.baidu.com/s/1Tmq_jy7E3evUnyz_jGXf2w?pwd=5iew) (extraction code:5iew). 
         
-    + downloading our weights and move it into `./save_models/MVSA-S.pth or MVSA-M.pth or HFM.pth`, 
+    + downloading our weights and move them into `./save_models/MVSA-S.pth or MVSA-M.pth or HFM.pth`, 
     which can be found from [(Baidu Drive)](https://pan.baidu.com/s/11xNLXA7m0g9SHMAZs-ZFPg?pwd=afr5) (extraction code: afr5). 
     
     + downloading pre-trained ResNet50 and bert-base-uncased weights and move them into `./pre_train/` and `./pre_train/bert-base-uncased/`,
@@ -68,19 +68,19 @@ Also, These datasets can be download from our [(Baidu Drive)](https://pan.baidu.
 
 1. Training Configuration:
 
-    + After you download dataset, just run `train.py` to train our model.
+    + After you download the dataset, just run `train.py` to train our model.
 
 
-1. Testing and Evaluting Configuration:
+1. Testing and Evaluating Configuration:
 
-    + After you download all the trained weights, just run `test.py` to perform prediction.
+    + After you download all the trained weights, just run `test.py` to perform a prediction.
     + Note: Since the previous server was accidentally cleaned up, we retrained the model on other machines. The latest results are in the results.txt file, and these results are even better than those reported in the paper.
     
 Note:  If you have difficulty accessing Baidu Drive, please contact us for alternative download links.
 
 ## 4. Citation
 
-Please cite our paper if you find the work useful, thanks!
+Please cite our paper if you find the work useful. Thanks!
 	
 	@article{SPP-SCL,
 	  title={SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond },
