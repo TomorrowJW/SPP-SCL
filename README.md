@@ -74,7 +74,8 @@ Also, these datasets can be downloaded from our [(Baidu Drive)](https://pan.baid
 1. Testing and Evaluating Configuration:
 
     + After you download all the trained weights, just run `test.py` to perform a prediction.
-    + Note: Since the previous server was accidentally cleaned up, we retrained the model on other machines. The latest results are in the results.txt file, and these results are even better than those reported in the paper.
+    + > 📢 **Important Update** 
+	  > **Due to accidental server cleanup, all models were retrained on new hardware. The updated results (see `results.txt`) are even better than those reported in the AAAI 2026 paper.**
     
 Note:  If you have difficulty accessing Baidu Drive, please contact us for alternative download links.
 
