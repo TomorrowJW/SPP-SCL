@@ -1,0 +1,75 @@
+MVSA-S:
+Let us start to test the model
+the weighted value is :
+Accuracy:[0.837778], Precision:[0.807728], Recall:[0.837778], F1:[0.81891163]
+
+
+the micro value is :
+Accuracy:[0.837778], Precision:[0.837778], Recall:[0.837778], F1:[0.83777778]
+
+
+the macro value is :
+Accuracy:[0.837778], Precision:[0.650640], Recall:[0.630486], F1:[0.63506697]
+
+
+              precision    recall  f1-score   support
+
+           0   0.874172  0.985075  0.926316       268
+           1   0.185185  0.106383  0.135135        47
+           2   0.892562  0.800000  0.843750       135
+
+    accuracy                       0.837778       450
+   macro avg   0.650640  0.630486  0.635067       450
+weighted avg   0.807728  0.837778  0.818912       450
+
+
+MVSA-M:
+Let us start to test the model
+the weighted value is :
+Accuracy:[0.785882], Precision:[0.769531], Recall:[0.785882], F1:[0.76408917]
+
+
+the micro value is :
+Accuracy:[0.785882], Precision:[0.785882], Recall:[0.785882], F1:[0.78588235]
+
+
+the macro value is :
+Accuracy:[0.785882], Precision:[0.682517], Recall:[0.547043], F1:[0.55972115]
+
+
+              precision    recall  f1-score   support
+
+           0   0.859451  0.940760  0.898269      1131
+           1   0.588101  0.584091  0.586089       440
+           2   0.600000  0.116279  0.194805       129
+
+    accuracy                       0.785882      1700
+   macro avg   0.682517  0.547043  0.559721      1700
+weighted avg   0.769531  0.785882  0.764089      1700
+
+
+HFM:
+Let us start to test the model
+the weighted value is :
+Accuracy:[0.966376], Precision:[0.967612], Recall:[0.966376], F1:[0.96651519]
+
+
+the micro value is :
+Accuracy:[0.966376], Precision:[0.966376], Recall:[0.966376], F1:[0.96637609]
+
+
+the macro value is :
+Accuracy:[0.966376], Precision:[0.961886], Recall:[0.969597], F1:[0.96522655]
+
+
+              precision    recall  f1-score   support
+
+           0   0.989979  0.953793  0.971549      1450
+           1   0.933794  0.985401  0.958904       959
+
+    accuracy                       0.966376      2409
+   macro avg   0.961886  0.969597  0.965227      2409
+weighted avg   0.967612  0.966376  0.966515      2409
+
+
+Process finished with exit code 0
