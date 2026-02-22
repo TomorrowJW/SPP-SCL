@@ -8,7 +8,7 @@
 
 ## 1. Preface
 
-- This repository provides code for "_**SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond **_" AAAI 2026. [Paper](https://dl.acm.org/doi/10.1145/3768584) 
+- This repository provides code for "_**SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond **_" AAAI 2026. [Paper]() 
 
 
 ## 2. Overview
@@ -53,51 +53,40 @@ The training and testing experiments are conducted using [PyTorch](https://githu
 1. Configuring your environment (Prerequisites):
        
     + Installing necessary packages: `pip install -r requirements.txt`.
+    + Our training, validation, and testing partitioning follows the [CLMF](https://github.com/Link-Li/CLMLF/tree/main) partitioning method in NAACL2022 to ensure fair comparison.
 
 1. Downloading necessary data:
 
-    + downloading training dataset and move it into `./data/`, 
-    which can be found from [Baidu Drive](https://pan.baidu.com/s/1zLYWsxxluq1elQuyY7gg3w) (extraction code: ekd2). 
-
-    + downloading testing dataset and move it into `./data/`, 
-    which can be found from [Baidu Drive](https://pan.baidu.com/s/1xnaiHnAuj4UVTPRak9oU2g) (extraction code: nhwe). 
+    + downloading dataset and move it into `./data/`, which can be found from [two MVSA Datasets](http://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/) for MVSA-Single and MVSA-Multiple Datasets, and can be found from [HFM Dataset](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
+Also, These datasets can be download from our [(Baidu Drive)](https://pan.baidu.com/s/1Tmq_jy7E3evUnyz_jGXf2w?pwd=5iew) (extraction code:5iew). 
         
-    + downloading our weights and move it into `./save_models/PVT-V2-B4-384.pth`, 
-    which can be found from [(Baidu Drive)](https://pan.baidu.com/s/1ibKdnGDf4_vCGY_zmqyyAA?pwd=2855) (extraction code: 2855). 
+    + downloading our weights and move it into `./save_models/MVSA-S.pth or MVSA-M.pth or HFM.pth`, 
+    which can be found from [(Baidu Drive)](https://pan.baidu.com/s/11xNLXA7m0g9SHMAZs-ZFPg?pwd=afr5) (extraction code: afr5). 
     
-    + downloading weights and move it into `./pre_train/pvt_v2_b4.pth`,
-    which can be found from [Baidu Drive](https://pan.baidu.com/s/1aWXw0O7vMXRYWQK5MvHBIA?pwd=u1u6) (extraction code: u1u6). 
+    + downloading pre-trained ResNet50 and bert-base-uncased weights and move them into `./pre_train/` and `./pre_train/bert-base-uncased/`,
+    which can be found from [Baidu Drive](https://pan.baidu.com/s/1HoSXiwu8j4aFQg55jN7mBw) (extraction code: 3c7b) and [Baidu Drive](https://pan.baidu.com/s/1I5OJkYCoCz5iOuzbnvvVbw) (extraction code: ys4w). 
 
 1. Training Configuration:
 
-    + After you download training dataset, just run `MyTrain.py` to train our model.
+    + After you download dataset, just run `train.py` to train our model.
 
 
-1. Testing Configuration:
+1. Testing and Evaluting Configuration:
 
-    + After you download all the pre-trained model and testing dataset, just run `MyTest.py` to generate the final prediction maps.
+    + After you download all the trained weights, just run `test.py` to perform prediction.
+    + Note: Since the previous server was accidentally cleaned up, we retrained the model on other machines. The latest results are in the results.txt file, and these results are even better than those reported in the paper.
     
-    + You can also download prediction maps and edge prediction maps ('CHAMELEON', 'CAMO', 'COD10K', 'NC4K') from [Baidu Drive](https://pan.baidu.com/s/1MhEAX396p9cFGbehCxgYlA?pwd=w2mw) (extraction code: w2mw)).
-
 Note:  If you have difficulty accessing Baidu Drive, please contact us for alternative download links.
-### 3.2 Evaluating your trained model:
-
-One evaluation is written in Python codes ([link](https://github.com/lartpang/PySODMetrics)), or Matlab codes ([link](https://github.com/DengPingFan/CODToolbox)).
-please follow this the instructions in `MyEval.py` and just run it to generate the evaluation results.
 
 ## 4. Citation
 
 Please cite our paper if you find the work useful, thanks!
 	
-	@article{wu2025boosting,
-	  title={Boosting Foreground-Background Disentanglement for Camouflaged Object Detection},
-	  author={Wu, Jiesheng and Hao, Fangwei and Xu, Jing},
-	  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
-	  volume={21},
-	  number={12},
-	  pages={1--23},
-	  year={2025},
-	  publisher={ACM New York, NY}
+	@article{SPP-SCL,
+	  title={SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond },
+	  author={Wu, Jiesheng and Li, Shengrong},
+	  conference={AAAI Conference on Artificial Intelligence (AAAI)},
+	  year={2026}
 	}
 
 ## 5. Contact
