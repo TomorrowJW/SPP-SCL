@@ -82,17 +82,18 @@ Note:  If you have difficulty accessing Baidu Drive, please contact us for alter
 ## 4. Citation
 
 Please cite our paper if you find the work useful. Thanks!	
+
 	@article{Wu_Li_2026,
-			title={SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond},
-			volume={40},
-			url={https://ojs.aaai.org/index.php/AAAI/article/view/37200},
-			DOI={10.1609/aaai.v40i3.37200},
-			number={3}, 
-			journal={Proceedings of the AAAI Conference on Artificial Intelligence},
-			author={Wu, Jiesheng and Li, Shengrong}, 
-			year={2026},
-			month={Mar.}, 
-			pages={2173-2181}
+		title={SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond},
+		volume={40},
+		url={https://ojs.aaai.org/index.php/AAAI/article/view/37200},
+		DOI={10.1609/aaai.v40i3.37200},
+		number={3}, 
+		journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+		author={Wu, Jiesheng and Li, Shengrong}, 
+		year={2026},
+		month={Mar.}, 
+		pages={2173-2181}
 		}
 ## 5. Contact
 
