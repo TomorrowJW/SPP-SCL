@@ -8,7 +8,7 @@
 
 ## 1. Preface
 
-- This repository provides codes for "_SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond_" AAAI 2026. [Paper](https://arxiv.org/abs/2602.20767) 
+- This repository provides codes for "_SPP-SCL: Semi-Push-Pull Supervised Contrastive Learning for Image-Text Sentiment Analysis and Beyond_" AAAI 2026. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37200) 
 
 
 ## 2. Overview
